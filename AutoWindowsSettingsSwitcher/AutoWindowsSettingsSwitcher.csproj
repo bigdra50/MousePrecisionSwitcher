@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net5.0-windows</TargetFramework>
+        <UseWindowsForms>true</UseWindowsForms>
+        <PackageIconUrl>./Resources/うんちアイコン2.ico</PackageIconUrl>
+        <AssemblyName>TogglePointerPrecisionWhileFPS</AssemblyName>
+        <RootNamespace>TogglePointerPrecisionWhileFPS</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="Resources\うんちアイコン2.ico">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>
