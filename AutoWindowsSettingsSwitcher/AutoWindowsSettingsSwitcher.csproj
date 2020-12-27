@@ -10,7 +10,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <None Update="Resources\うんちアイコン2.ico">
+      <None Update="Resources\favicon.ico">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </None>
     </ItemGroup>
