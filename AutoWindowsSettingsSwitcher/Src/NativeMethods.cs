@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace TogglePointerPrecisionWhileFPS
+namespace MousePrecisionSwitcher
 {
     [Flags]
     public enum SPIF

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace AutoWindowsSettingsSwitcher
+namespace MousePrecisionSwitcher
 {
     public static class TaskEx
     {
