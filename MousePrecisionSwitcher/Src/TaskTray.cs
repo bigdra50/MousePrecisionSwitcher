@@ -16,7 +16,7 @@ namespace MousePrecisionSwitcher
 
         private void Initialize()
         {
-            _notifyIcon = new NotifyIcon {Icon = new Icon(@"./Resources/favicon.ico"), Visible = true, Text = "Mouse Acceleration Switcher"};
+            _notifyIcon = new NotifyIcon {Icon = new Icon(@"./Resources/favicon.ico"), Visible = true, Text = "Mouse Precision Switcher"};
 
             var contextMenuStrip = new ContextMenuStrip();
             contextMenuStrip.Items.AddRange(new ToolStripItem[]

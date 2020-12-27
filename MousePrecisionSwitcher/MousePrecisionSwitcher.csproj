@@ -4,10 +4,11 @@
         <OutputType>WinExe</OutputType>
         <TargetFramework>net5.0-windows</TargetFramework>
         <UseWindowsForms>true</UseWindowsForms>
-        <PackageIconUrl>./Resources/うんちアイコン2.ico</PackageIconUrl>
-        <AssemblyName>MousePrecisionSwitcher</AssemblyName>
-        <RootNamespace>MousePrecisionSwitcher</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Resources" />
+    </ItemGroup>
 
     <ItemGroup>
       <None Update="Resources\favicon.ico">
